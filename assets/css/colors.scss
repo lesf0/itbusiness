@@ -1,0 +1,39 @@
+@mixin color($code,$name){
+	.c#{$name} {color: #{$code}}
+	.bg#{$name} {background-color: #{$code}}
+	.brd#{$name} {border-color: #{$code}}
+	.ol#{$name} {outline-color: #{$code}}
+
+	.ch#{$name}:hover {color: #{$code}}
+	.bgh#{$name}:hover {background-color: #{$code}}
+	.brdh#{$name}:hover {border-color: #{$code}}
+	.olh#{$name}:hover {outline-color: #{$code}}
+
+	//:checked + .cs#{$name} {color: #{$code}}
+	//:checked + .bgs#{$name} {background-color: #{$code}}
+	//:checked + .brds#{$name} {border-color: #{$code}}
+	//:checked + .ols#{$name} {outline-color: #{$code}}
+}
+@mixin gray($code){
+	@include color(to-lower-case("#"+$code+$code+$code),$code);
+}
+
+@include gray("0");
+@include gray("33");
+@include gray("F");
+
+
+
+@include color(transparent,"Trans");
+@include color(inherit,"Inherit");
+
+@for $i from 1 through 19 {
+	@include color("rgba(0,0,0,#{$i/20})","0-#{$i*5}-pc");
+}
+@for $i from 1 through 19 {
+	@include color("rgba(255,255,255,#{$i/20})","F-#{$i*5}-pc");
+}
+
+body {
+	@extend .c0,.bgF;
+}
