@@ -58,9 +58,9 @@
 @include font-class(Exo2,exo2);
 
 
-@include font-face(Icon,icon,400);
+//@include font-face(Icon,icon,400);
 
-@include font-class-icon(Icon,icon);
+//@include font-class-icon(Icon,icon);
 
 
 body {

@@ -1,2 +1,4 @@
 /config.php
 /.dropbox
+/assets/css/*.css
+/assets/css/*.map

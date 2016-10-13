@@ -14,6 +14,7 @@
 
 	font-size: inherit;
 	font-family: inherit;
+	font-weight: inherit;
 
 	text-align: inherit;
 	vertical-align: inherit;
@@ -68,6 +69,10 @@ sup {
 }
 sub {
 	@extend .valign-bottom;
+}
+
+b, strong {
+	@extend .bold;
 }
 
 textarea {

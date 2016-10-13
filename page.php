@@ -13,21 +13,21 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 
 $blocks_all=array(
 	'head'				=> array(
-									'classes'=>'head-block',
-									'classes-mobile'=>'head-block'
-								),
+		'classes'=>'head-block',
+		'classes-mobile'=>'head-block'
+	),
 	'main'				=> array(
-									'classes'=>'main-block',
-									'classes-mobile'=>'goods-block'
-								),
+		'classes'=>'main-block',
+		'classes-mobile'=>'main-block'
+	),
 	'footer'			=> array(
-									'classes'=>'footer-block',
-									'classes-mobile'=>'footer-block'
-								),
+		'classes'=>'footer-block',
+		'classes-mobile'=>'footer-block'
+	),
 	'404'			=> array(
-									'classes'=>'404-block',
-									'classes-mobile'=>'404-block'
-								),
+		'classes'=>'404-block',
+		'classes-mobile'=>'404-block'
+	),
 );
 /**/
 $pages=array(

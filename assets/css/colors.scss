@@ -9,20 +9,18 @@
 	.brdh#{$name}:hover {border-color: #{$code}}
 	.olh#{$name}:hover {outline-color: #{$code}}
 
-	//:checked + .cs#{$name} {color: #{$code}}
-	//:checked + .bgs#{$name} {background-color: #{$code}}
-	//:checked + .brds#{$name} {border-color: #{$code}}
-	//:checked + .ols#{$name} {outline-color: #{$code}}
+	//:checked + .cc#{$name} {color: #{$code}}
+	//:checked + .bgc#{$name} {background-color: #{$code}}
+	//:checked + .brdc#{$name} {border-color: #{$code}}
+	//:checked + .olc#{$name} {outline-color: #{$code}}
 }
 @mixin gray($code){
 	@include color(to-lower-case("#"+$code+$code+$code),$code);
 }
 
 @include gray("0");
-@include gray("33");
+@include gray("3");
 @include gray("F");
-
-
 
 @include color(transparent,"Trans");
 @include color(inherit,"Inherit");
