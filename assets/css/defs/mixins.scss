@@ -43,8 +43,7 @@
 
 // Compatibility
 
-@mixin transition($prop,$delay)				{@include autoprefix_key(transition, #{$prop} #{$delay});}
-@mixin transition-raw($raw...)				{@include autoprefix_key(transition, $raw);}
+@mixin transition($raw...)					{@include autoprefix_key(transition, $raw);}
 @mixin transition-delay($delay)				{@include autoprefix_key(transition-delay, $delay);}
 @mixin transition-duration($duration)		{@include autoprefix_key(transition-duration, $duration);}
 

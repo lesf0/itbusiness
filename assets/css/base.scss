@@ -106,8 +106,8 @@ textarea {
 	content: '';
 	display: block;
 	clear: both;
-	height: 0;
-	visibility: hidden;
+	@extend .h-0;
+	@extend .invisible;
 }
 
 .content-box	{@include box-sizing(content-box);}
@@ -311,7 +311,7 @@ textarea {
 
 @for $i from 1 through 10 {
 	.trans-#{$i*100} {
-		@include transition(all,#{$i/10}s);
+		@include transition(all #{$i/10}s);
 	}
 }
 
