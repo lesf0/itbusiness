@@ -58,7 +58,6 @@ a , a * , button , button * , label , label * , input[type=button] , input[type=
 
 table {
 	border-collapse: collapse;
-	//table-layout: fixed;
 }
 
 sup,sub {
@@ -175,9 +174,9 @@ textarea {
 .rtl {direction: rtl;}
 .ltr {direction: ltr;}
 
-.ontop    {z-index: 1;}
-.onmiddle {z-index: 0;}
-.onbottom {z-index: -1;}
+.ontop    {@extend .zi-1;}		// Transitional
+.onmiddle {@extend .zi-0;}		// Transitional
+.onbottom {@extend .zi--1;}		// Transitional
 
 .thin 	 {font-weight: 100;}
 .light 	 {font-weight: 200;}
@@ -187,11 +186,10 @@ textarea {
 .boldest {font-weight: 900;}
 
 .italic {font-style: italic;}
-.under {text-decoration: underline;}
+.underline {text-decoration: underline;}
 
 .upper		{text-transform: uppercase;}
 .lower		{text-transform: lowercase;}
-//.capital	{text-transform: capitalize;}
 
 .upper-first:first-letter {
 	@extend .upper;
@@ -203,6 +201,14 @@ textarea {
 .o-hidden	{overflow: hidden;}
 .o-visible	{overflow: visible;}
 .o-auto		{overflow: auto;}
+
+.clip-all	{clip: rect(auto,auto,auto,auto);}
+.clip-lr	{clip: rect(#{- $design-width}rem,auto,#{$design-width}rem,auto);}
+.clip-l		{clip: rect(#{- $design-width}rem,#{$design-width}rem,#{$design-width}rem,auto);}
+.clip-r		{clip: rect(#{- $design-width}rem,auto,#{$design-width}rem,#{- $design-width}rem);}
+.clip-tb	{clip: rect(auto,#{$design-width}rem,auto,#{- $design-width}rem);}
+.clip-t		{clip: rect(auto,#{$design-width}rem,#{$design-width}rem,#{- $design-width}rem);}
+.clip-b		{clip: rect(#{- $design-width}rem,#{$design-width}rem,auto,#{- $design-width}rem);}
 
 .no-list     {list-style-type: none;}
 .square-list {list-style-type: square;}
@@ -219,6 +225,8 @@ textarea {
 .bg-top		{background-position: top;}
 .bg-center	{background-position: center;}
 .bg-bottom	{background-position: bottom;}
+.bg-left	{background-position: left;}
+.bg-right	{background-position: right;}
 
 .bg-100pc-auto {background-size: 100% auto;}
 
@@ -272,7 +280,7 @@ textarea {
 @for $i from 1 through 20 {.h-#{$i*5}-pc {height:#{percentage($i*5/100)}}}
 
 @for $i from 6 through 400 {.f-#{$i} {font-size:#{$i}rem}}
-.l-h-1 , .lh-100-pc {line-height: 1;}												//transitional
+.l-h-1 {line-height: 1;}
 @for $i from 6 through 400 {.lh-#{$i} {line-height:#{$i}rem}}
 
 .brd-a-0 {border: 0 none;}
@@ -301,17 +309,6 @@ textarea {
 
 /************************************************************************************************/
 
-.brddotted {border-style: dotted;}
-.brddashed {border-style: dashed;}
-.brdsolid {border-style: solid;}
-.brddouble {border-style: double;}
-.brdgroove {border-style: groove;}
-.brdridge {border-style: ridge;}
-.brdinset {border-style: inset;}
-.brdoutset {border-style: outset;}
-
-/************************************************************************************************/
-
 @for $i from 1 through 10 {
 	.trans-#{$i*100} {
 		@include transition(all,#{$i/10}s);
@@ -328,23 +325,8 @@ textarea {
 
 /************************************************************************************************/
 
-@for $i from 1 through 10 {
-	.hover-anim-down-#{$i*5}:hover {
-		@include transform("translateY(#{$i*5}rem)");
-	}
-}
-@for $i from 1 through 10 {
-	.hover-anim-up-#{$i*5}:hover {
-		@include transform("translateY(#{-$i*5}rem)");
-	}
-}
-@for $i from 1 through 10 {
-	.hover-anim-left-#{$i*5}:hover {
-		@include transform("translateX(#{-$i*5}rem)");
-	}
-}
-@for $i from 1 through 10 {
-	.hover-anim-right-#{$i*5}:hover {
-		@include transform("translateX(#{$i*5}rem)");
+@for $i from -5 through 5 {
+	.zi-#{$i} {
+		z-index: #{$i};
 	}
 }
