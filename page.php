@@ -12,19 +12,19 @@ if(preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|c
 }
 
 $blocks_all=array(
-	'head'				=> array(
+	'head' => array(
 		'classes'=>'head-block',
 		'classes-mobile'=>'head-block'
 	),
-	'main'				=> array(
+	'main' => array(
 		'classes'=>'main-block',
 		'classes-mobile'=>'main-block'
 	),
-	'footer'			=> array(
+	'footer' => array(
 		'classes'=>'footer-block',
 		'classes-mobile'=>'footer-block'
 	),
-	'404'			=> array(
+	'404' => array(
 		'classes'=>'404-block',
 		'classes-mobile'=>'404-block'
 	),
