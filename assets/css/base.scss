@@ -330,3 +330,17 @@ textarea {
 		z-index: #{$i};
 	}
 }
+
+/************************************************************************************************/
+
+:checked + .toggle-fade {
+	opacity: 0;
+	& , * {
+		pointer-events: none;
+	}
+}
+
+:checked + .toggle-slide-left	{@include transform(translateX(-100%));}
+:checked + .toggle-slide-right	{@include transform(translateX(100%));}
+:checked + .toggle-slide-top	{@include transform(translateY(-100%));}
+:checked + .toggle-slide-bottom	{@include transform(translateY(100%));}
