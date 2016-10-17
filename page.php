@@ -32,7 +32,7 @@ $blocks_all=array(
 /**/
 $pages=array(
 	'404' => array(
-		'404',
+		'head','404','footer',
 	),
 	'' => array(
 		'head','main','footer',
