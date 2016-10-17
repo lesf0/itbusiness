@@ -39,8 +39,15 @@ html,body {
 body , .select-none {
 	@include user-select("none");
 }
-a, input, select, textarea, button, label, iframe, .pointer-auto {
+.pointer-auto {
 	pointer-events: auto;
+}
+a, input, select, textarea, button, label {
+	@extend .pointer-auto;
+	@extend .relative;
+}
+iframe {
+	@extend .pointer-auto;
 }
 input , textarea , .select-text {
 	@include user-select("text");
