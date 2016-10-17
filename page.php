@@ -75,6 +75,6 @@ foreach ($blocks as $__block_id => $__block) {
 	}
 }
 
-?></div></div><? require INCLUDES."/footer.php" ?></body></html><?
+?></div></div><? require INCLUDES."/bodybottom.php" ?></body></html><?
 ob_end_flush();
 ?>
