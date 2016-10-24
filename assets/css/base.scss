@@ -185,12 +185,12 @@ textarea {
 .onmiddle {@extend .zi-0;}		// Transitional
 .onbottom {@extend .zi--1;}		// Transitional
 
-.thin 	 {font-weight: 100;}
-.light 	 {font-weight: 200;}
-.regular {font-weight: 300;}
-.normal  {font-weight: 400;}
-.bold 	 {font-weight: 700;}
-.boldest {font-weight: 900;}
+.thin 	 {@extend .fw-100;}		// Transitional
+.light 	 {@extend .fw-200;}		// Transitional
+.regular {@extend .fw-300;}		// Transitional
+.normal  {@extend .fw-400;}		// Transitional
+.bold 	 {@extend .fw-700;}		// Transitional
+.boldest {@extend .fw-900;}		// Transitional
 
 .italic {font-style: italic;}
 .underline {text-decoration: underline;}
@@ -287,6 +287,7 @@ textarea {
 @for $i from 1 through 20 {.h-#{$i*5}-pc {height:#{percentage($i*5/100)}}}
 
 @for $i from 6 through 400 {.f-#{$i} {font-size:#{$i}rem}}
+@for $i from 1 through 9 {.fw-#{$i * 100} {font-weight:#{$i*100}}}
 .lh-100-pc {line-height: 1;}
 @for $i from 6 through 400 {.lh-#{$i} {line-height:#{$i}rem}}
 
