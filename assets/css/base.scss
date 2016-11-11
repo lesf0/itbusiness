@@ -96,6 +96,11 @@ textarea {
 .left   {left:0;}
 .right  {right:0;}
 
+.top-100-pc    {top:100%;}
+.bottom-100-pc {bottom:100%;}
+.left-100-pc   {left:100%;}
+.right-100-pc  {right:100%;}
+
 .wrap-left		{left: -#{$design-width}rem;}
 .wrap-right		{right: -#{$design-width}rem;}
 .wrap-top		{top: -#{$design-width}rem;}
