@@ -59,7 +59,7 @@ input , textarea , .select-text {
 input , textarea , .select-all , .select-text {
 	cursor: text;
 }
-a , a * , button , button * , label , label * , input[type=button] , input[type=reset] , input[type=submit] {
+a , a * , button , button * , label , label * , input[type=button] , input[type=reset] , input[type=submit], select {
 	cursor: pointer;
 }
 
