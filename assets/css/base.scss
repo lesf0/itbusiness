@@ -65,7 +65,7 @@ input , textarea , .select-text {
 	@include user-select("all");
 }
 
-input , textarea , .select-all , .select-text {
+input , textarea , .select-all , .select-all * , .select-text , .select-text * {
 	cursor: text;
 }
 a , a * , button , button * , label , label * , input[type=button] , input[type=reset] , input[type=submit], select {
