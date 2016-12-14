@@ -305,6 +305,7 @@ textarea {
 @for $i from 1 through 9 {.fw-#{$i * 100} {font-weight:#{$i*100}}}
 .lh-100-pc {line-height: 1;}
 @for $i from 6 through 400 {.lh-#{$i} {line-height:#{$i}rem}}
+@for $i from 1 through 100 {.ls-#{$i*10} {letter-spacing:#{$i/100}em}}
 
 .brd-a-0 {border: 0 none;}
 @for $i from 1 through 9 {.brd-a-#{$i} {border:#{$i}rem solid transparent}}
