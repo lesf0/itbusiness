@@ -1,0 +1,9 @@
+@import 'defs/config';
+@import 'defs/mixins';
+
+/************************************************************************************************/
+
+@include media-less($content-width) {
+	@for $i from 1 through 20 {.w-#{$i*5}-pc-sm {width:#{percentage($i*5/100)}}}
+	.nodisplay-sm {display:none}
+}

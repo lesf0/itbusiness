@@ -34,6 +34,14 @@
 @include color(transparent,"Trans");
 @include color(inherit,"Inherit");
 
+@include color(#4e7aa6,"DarkBlue");
+@include color(#4f5a66,"GrayBlue");
+@include color(#3599db,"Blue");
+@include color(#e9edf0,"InvisibleBlue");
+
+@include color(#babdbf,"BABDBF");
+@include color(#dce0e3,"DCE0E3");
+
 @for $i from 1 through 19 {
 	@include color("rgba(0,0,0,#{$i/20})","0-#{$i*5}-pc");
 }

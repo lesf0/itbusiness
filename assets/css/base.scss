@@ -251,6 +251,7 @@ textarea {
 .bg-right	{background-position: right;}
 
 .bg-100pc-auto {background-size: 100% auto;}
+.bg-auto-100pc {background-size: auto 100%;}
 
 .table-fixed {table-layout: fixed;}
 
@@ -294,11 +295,11 @@ textarea {
 @for $i from 0 through 9 {.p-l-#{$i} {padding-left:#{$i}rem}}
 @for $i from 2 through 52 {.p-l-#{$i*5} {padding-left:#{$i*5}rem}}
 
-@for $i from 0 through 9 {.w-#{$i} {width:#{$i}rem}}
-@for $i from 2 through $design-width/5 {.w-#{$i*5} {width:#{$i*5}rem}}
+@for $i from 0 through 19 {.w-#{$i} {width:#{$i}rem}}
+@for $i from 4 through $design-width/5 {.w-#{$i*5} {width:#{$i*5}rem}}
 @for $i from 1 through 20 {.w-#{$i*5}-pc {width:#{percentage($i*5/100)}}}
-@for $i from 0 through 9 {.h-#{$i} {height:#{$i}rem}}
-@for $i from 2 through $design-width/5 {.h-#{$i*5} {height:#{$i*5}rem}}
+@for $i from 0 through 19 {.h-#{$i} {height:#{$i}rem}}
+@for $i from 4 through $design-width/5 {.h-#{$i*5} {height:#{$i*5}rem}}
 @for $i from 1 through 20 {.h-#{$i*5}-pc {height:#{percentage($i*5/100)}}}
 
 @for $i from 6 through 400 {.f-#{$i} {font-size:#{$i}rem}}

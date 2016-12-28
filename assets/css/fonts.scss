@@ -60,20 +60,21 @@
 }
 
 
-@include font-face(Exo2,Exo2-Light,100);
-@include font-face(Exo2,Exo2-Medium,400);
-@include font-face(Exo2,Exo2-Bold,700);
+@include font-face(helveticaneuecyr,helveticaneuecyr-roman,300);
+@include font-face-style(helveticaneuecyr,helveticaneuecyr-italic,300,italic);
+@include font-face(helveticaneuecyr,helveticaneuecyr-medium,400);
+@include font-face(helveticaneuecyr,helveticaneuecyr-bold,700);
 
-@include font-class(Exo2,exo2);
+@include font-class(helveticaneuecyr,helveticaneuecyr);
 
 
-//@include font-face(Icon,icon,400);
+@include font-face(Panton,Panton-Bold,700);
 
-//@include font-class-icon(Icon,icon);
+@include font-class(Panton,panton);
 
 
 body {
-	@extend .exo2;
+	@extend .helveticaneuecyr;
 	line-height: 1.2;
 	font-weight: 400;
 }
