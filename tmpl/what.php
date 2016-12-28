@@ -5,7 +5,7 @@
 
 <?	for($i=0;$i<4;++$i): ?>
 	<div class="w-50-pc w-100-pc-sm pull-left m-b-30 valign-middle">
-		<img src="http://placekitten.com/180/180" class="w-180">
+		<img src="https://placekitten.com/180/180" class="w-180">
 		<div class="inblock m-l-10 brd-l-3">
 			<h6 class="f-15 upper bold m-b-7">
 				Торговля

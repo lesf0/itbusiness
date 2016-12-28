@@ -1,7 +1,7 @@
 RewriteEngine on
 
 #RewriteCond %{HTTP_HOST} !^talant-management.ru$
-#RewriteRule ^(.*)$ http://talant-management.ru/$1? [R=301,L]
+#RewriteRule ^(.*)$ https://talant-management.ru/$1? [R=301,L]
 
 #RewriteCond %{THE_REQUEST} \?
 #RewriteRule ^(.*)$ /$1? [R=301,L]

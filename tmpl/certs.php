@@ -8,7 +8,7 @@
 			<div class="swiper-wrapper">
 <?				for($i=0;$i<10;++$i): ?>
 				<div class="swiper-slide text-center cert-img-container onmiddle">
-					<img src="http://placekitten.com/165/240" class="w-165">
+					<img src="https://placekitten.com/165/240" class="w-165">
 				</div>
 <?				endfor; ?>
 			</div>
