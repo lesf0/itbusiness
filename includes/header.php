@@ -9,17 +9,17 @@
 <?//<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">?>
 
 <?php /* *** */ ?>
-<link rel="stylesheet" type="text/css" href="/assets/css/layout.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/base.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/columns.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/fonts.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/colors.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/pages.css">
+<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+<link rel="stylesheet" type="text/css" href="assets/css/base.css">
+<link rel="stylesheet" type="text/css" href="assets/css/columns.css">
+<link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors.css">
+<link rel="stylesheet" type="text/css" href="assets/css/pages.css">
 <?php /* *** * ?>
-<link rel="stylesheet" type="text/css" href="/assets/css/master.css">
+<link rel="stylesheet" type="text/css" href="assets/css/master.css">
 <?php /* *** */ ?>
 
-<?//<link rel="icon" type="image/png" href="/assets/img/favicon.png">?>
+<?//<link rel="icon" type="image/png" href="assets/img/favicon.png">?>
 
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 <?//<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>?>
@@ -33,6 +33,6 @@
 <?//<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>?>
 <?//<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>?>
 <?//<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyD3joEjHuSsPhJVZt0J833JHPBdvdD6O24"></script>?>
-<script type="text/javascript" src="/assets/js/scroll.js"></script>
-<script type="text/javascript" src="/assets/js/slider.js"></script>
-<script type="text/javascript" src="/assets/js/maskedinput.js"></script>
+<script type="text/javascript" src="assets/js/scroll.js"></script>
+<script type="text/javascript" src="assets/js/slider.js"></script>
+<script type="text/javascript" src="assets/js/maskedinput.js"></script>

@@ -1,7 +1,7 @@
 <div id="main_slider" class="swiper-container h-450">
 	<div class="swiper-wrapper">
 <?		for($i=0;$i<5;++$i): ?>
-		<div class="swiper-slide bg-cover bg-center bg-no-repeat" style="background-image:url(/assets/img/slider/img1.jpg)">
+		<div class="swiper-slide bg-cover bg-center bg-no-repeat" style="background-image:url(assets/img/slider/img1.jpg)">
 			<div class="absolute left right top bottom w-940 slider-width m-a-auto">
 				<div class="absolute left top bottom w-660 slider-width m-b-50 valign-middle-hack text-center"><div class="inblock w-100-pc">
 					<h4 class="panton upper bold f-34 cBlue">
@@ -31,12 +31,12 @@
 
 <div class="absolute left right top bottom w-100-vw m-a-auto nodisplay-sm">
 	<a href="#" id="main_slider_prev" class="main-slider-button absolute left	top bottom ontop w-25 h-40 m-a-auto m-l-40">
-		<img src="/assets/img/ico/larr.png" class="absolute left	top w-100-pc trans-300">
-		<img src="/assets/img/ico/larr_h.png" class="absolute left	top w-100-pc trans-300">
+		<img src="assets/img/ico/larr.png" class="absolute left	top w-100-pc trans-300">
+		<img src="assets/img/ico/larr_h.png" class="absolute left	top w-100-pc trans-300">
 	</a>
 	<a href="#" id="main_slider_next" class="main-slider-button absolute right	top bottom ontop w-25 h-40 m-a-auto m-r-40">
-		<img src="/assets/img/ico/rarr.png" class="absolute right	top w-100-pc trans-300">
-		<img src="/assets/img/ico/rarr_h.png" class="absolute right	top w-100-pc trans-300">
+		<img src="assets/img/ico/rarr.png" class="absolute right	top w-100-pc trans-300">
+		<img src="assets/img/ico/rarr_h.png" class="absolute right	top w-100-pc trans-300">
 	</a>
 </div>
 

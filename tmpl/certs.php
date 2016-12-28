@@ -15,12 +15,12 @@
 		</div>
 
 		<a href="#" id="certs_slider_prev" class="main-slider-button absolute right-100-pc	top bottom ontop w-25 h-40 m-a-auto m-l-40">
-			<img src="/assets/img/ico/larr.png" class="absolute right	top w-100-pc trans-300">
-			<img src="/assets/img/ico/larr_h.png" class="absolute right	top w-100-pc trans-300">
+			<img src="assets/img/ico/larr.png" class="absolute right	top w-100-pc trans-300">
+			<img src="assets/img/ico/larr_h.png" class="absolute right	top w-100-pc trans-300">
 		</a>
 		<a href="#" id="certs_slider_next" class="main-slider-button absolute left-100-pc	top bottom ontop w-25 h-40 m-a-auto m-r-40">
-			<img src="/assets/img/ico/rarr.png" class="absolute left	top w-100-pc trans-300">
-			<img src="/assets/img/ico/rarr_h.png" class="absolute left	top w-100-pc trans-300">
+			<img src="assets/img/ico/rarr.png" class="absolute left	top w-100-pc trans-300">
+			<img src="assets/img/ico/rarr_h.png" class="absolute left	top w-100-pc trans-300">
 		</a>
 	</div>
 </div>

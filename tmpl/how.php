@@ -13,6 +13,6 @@
 		?></li>
 <?		endfor; ?>
 		<li class="w-25-pc w-50-pc-sm pull-left relative onmiddle h-90 m-b-40">
-			<img src="/assets/img/mark.png" class="w-155 border-box brd-r-1">
+			<img src="assets/img/mark.png" class="w-155 border-box brd-r-1">
 		</li>
 </div>

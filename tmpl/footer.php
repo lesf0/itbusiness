@@ -28,8 +28,8 @@
 		</p>
 
 		<a href="https://vk.com/" class="main-slider-button inblock relative h-30 w-30 p-a-1 m-t-3">
-			<img src="/assets/img/ico/vk.png" class="absolute left right top bottom trans-300">
-			<img src="/assets/img/ico/vk_h.png" class="absolute left right top bottom trans-300">
+			<img src="assets/img/ico/vk.png" class="absolute left right top bottom trans-300">
+			<img src="assets/img/ico/vk_h.png" class="absolute left right top bottom trans-300">
 		</a>
 	</div></div>
 

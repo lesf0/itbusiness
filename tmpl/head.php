@@ -14,7 +14,7 @@
 		<div class="inblock h-100-pc valign-middle-hack">
 			<div class="inblock cGrayBlue f-14 regular">
 				<a href="tel:+73422386819" class="valign-baseline">
-					<img src="/assets/img/ico/phone.png" alt="Телефон" class="w-16">
+					<img src="assets/img/ico/phone.png" alt="Телефон" class="w-16">
 					+7 (342)
 					<strong class="f-20 cBlue">
 						238-68-19

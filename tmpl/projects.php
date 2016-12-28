@@ -44,13 +44,13 @@
 			</p>
 
 			<div class="pull-left w-50-pc w-100-pc-sm clear relative">
-				<img src="/assets/img/ico/ok.png" class="h-30 border-box brd-t-1 brd-b-1 pull-left m-r-15 m-t-3">
+				<img src="assets/img/ico/ok.png" class="h-30 border-box brd-t-1 brd-b-1 pull-left m-r-15 m-t-3">
 				<div class="absolute left right wrap-top wrap-bottom m-l-45 m-r-45 valign-middle-hack"><div class="inblock w-100-pc">
 					20 пользователей в офисе и 5-ти магазинах г. Пермь и г. Тюмень.
 				</div></div>
 			</div>
 			<div class="pull-left w-50-pc w-100-pc-sm clear relative">
-				<img src="/assets/img/ico/ok.png" class="h-30 border-box brd-t-1 brd-b-1 pull-left m-r-15 m-t-3">
+				<img src="assets/img/ico/ok.png" class="h-30 border-box brd-t-1 brd-b-1 pull-left m-r-15 m-t-3">
 				<div class="absolute left right wrap-top wrap-bottom m-l-45 m-r-45 valign-middle-hack"><div class="inblock w-100-pc">
 					Более 100 сотрудников.
 				</div></div>
