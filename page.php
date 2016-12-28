@@ -19,7 +19,7 @@ $blocks_all=array(
 
 	),
 	'footer' => array(
-
+		'classes' => 'footer-bg bg-100pc-auto bg-top bg-no-repeat'
 	),
 	'404' => array(
 
@@ -55,6 +55,15 @@ $blocks_all=array(
 	'projects' => array(
 		'classes' => 'pattern-bg'
 	),
+	'clients' => array(
+		
+	),
+	'certs' => array(
+		
+	),
+	'map' => array(
+		'classes' => 'map-shadows onmiddle o-hidden'
+	),
 );
 /**/
 $pages=array(
@@ -62,7 +71,7 @@ $pages=array(
 		'head','404','footer',
 	),
 	'' => array(
-		'head','menu','slider','who','separator','what','how','form','about','projects','footer',
+		'head','menu','slider','who','separator','what','how','form','about','projects','clients','separator','certs','map','footer',
 	),
 );
 

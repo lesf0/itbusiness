@@ -3,8 +3,8 @@
 		Немного о нашей компании
 	</h3>
 
-	<div class="m-t-35 p-t-25 p-b-25 relative valign-middle text-justify-hack">
-		<div class="absolute wrap-left wrap-right top bottom w-100-pc m-a-auto brd-a-5 brdInvisibleBlue p-a-20 w-100-pc"></div>
+	<div class="m-t-35 p-t-25 p-b-25 relative onmiddle valign-middle text-justify-hack">
+		<div class="absolute wrap-left wrap-right top bottom onbottom w-100-pc m-a-auto brd-a-5 brdInvisibleBlue p-a-20 w-100-pc"></div>
 
 		<img src="http://placekitten.com/320/300" alt="Общее фото" class="w-320">
 
