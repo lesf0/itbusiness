@@ -51,14 +51,14 @@
 }
 
 .slider-form {
-	background-image: url(assets/img/slider/form-bg.png);
+	background-image: url(../img/slider/form-bg.png);
 }
 
 /************************************************************************************************/
 
 .default-title {
 	&:after {
-		content: url(assets/img/ico/lines.png);
+		content: url(../img/ico/lines.png);
 		width: 52rem;
 	}
 }
@@ -67,7 +67,7 @@
 		padding-left: 13rem;
 		position: relative;
 		&:before {
-			content: url(assets/img/ico/li.png);
+			content: url(../img/ico/li.png);
 			position: absolute;
 			margin-left: -13rem;
 			top: 0;
@@ -88,7 +88,7 @@
 		padding-left: 21rem;
 		position: relative;
 		&:before {
-			content: url(assets/img/ico/li_ok.png);
+			content: url(../img/ico/li_ok.png);
 			position: absolute;
 			margin-left: -21rem;
 			top: 0;
@@ -107,22 +107,22 @@
 /************************************************************************************************/
 
 .separator-bg {
-	background-image: url(assets/img/separator.png);
+	background-image: url(../img/separator.png);
 }
 .circle-bg {
-	background-image: url(assets/img/circle.png);
+	background-image: url(../img/circle.png);
 }
 
 .form-bg {
-	background-image: url(assets/img/form/bg.png);
+	background-image: url(../img/form/bg.png);
 }
 
 .pattern-bg {
-	background-image: url(assets/img/pattern.png);
+	background-image: url(../img/pattern.png);
 }
 
 .footer-bg {
-	background-image: url(assets/img/footer/bg.jpg);
+	background-image: url(../img/footer/bg.jpg);
 }
 
 /************************************************************************************************/

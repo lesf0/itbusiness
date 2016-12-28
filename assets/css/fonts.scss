@@ -11,8 +11,8 @@
 	@font-face {
 		font-family: #{$name};
 		font-weight: #{$weight};
-		src: url('assets/fonts/#{$fsname}.eot');
-		src: url('assets/fonts/#{$fsname}.woff') format('woff'), url('assets/fonts/#{$fsname}.ttf') format('truetype'), url('assets/fonts/#{$fsname}.svg') format('svg');
+		src: url('../fonts/#{$fsname}.eot');
+		src: url('../fonts/#{$fsname}.woff') format('woff'), url('../fonts/#{$fsname}.ttf') format('truetype'), url('../fonts/#{$fsname}.svg') format('svg');
 	}
 }
 @mixin font-face-style($name,$fsname,$weight,$style) {
@@ -20,16 +20,16 @@
 		font-family: #{$name};
 		font-weight: #{$weight};
 		font-style: #{$style};
-		src: url('assets/fonts/#{$fsname}.eot');
-		src: url('assets/fonts/#{$fsname}.woff') format('woff'), url('assets/fonts/#{$fsname}.ttf') format('truetype'), url('assets/fonts/#{$fsname}.svg') format('svg');
+		src: url('../fonts/#{$fsname}.eot');
+		src: url('../fonts/#{$fsname}.woff') format('woff'), url('../fonts/#{$fsname}.ttf') format('truetype'), url('../fonts/#{$fsname}.svg') format('svg');
 	}
 }
 @mixin font-face-local($name,$fsname,$weight,$localname) {
 	@font-face {
 		font-family: #{$name};
 		font-weight: #{$weight};
-		src: url('assets/fonts/#{$fsname}.eot');
-		src: local('#{$localname}'), url('assets/fonts/#{$fsname}.woff') format('woff'), url('assets/fonts/#{$fsname}.ttf') format('truetype'), url('assets/fonts/#{$fsname}.svg') format('svg');
+		src: url('../fonts/#{$fsname}.eot');
+		src: local('#{$localname}'), url('../fonts/#{$fsname}.woff') format('woff'), url('../fonts/#{$fsname}.ttf') format('truetype'), url('../fonts/#{$fsname}.svg') format('svg');
 	}
 }
 @mixin font-face-local-style($name,$fsname,$weight,$localname,$style) {
@@ -37,8 +37,8 @@
 		font-family: #{$name};
 		font-weight: #{$weight};
 		font-style: #{$style};
-		src: url('assets/fonts/#{$fsname}.eot');
-		src: local('#{$localname}'), url('assets/fonts/#{$fsname}.woff') format('woff'), url('assets/fonts/#{$fsname}.ttf') format('truetype'), url('assets/fonts/#{$fsname}.svg') format('svg');
+		src: url('../fonts/#{$fsname}.eot');
+		src: local('#{$localname}'), url('../fonts/#{$fsname}.woff') format('woff'), url('../fonts/#{$fsname}.ttf') format('truetype'), url('../fonts/#{$fsname}.svg') format('svg');
 	}
 }
 @mixin font-class($name,$class) {
