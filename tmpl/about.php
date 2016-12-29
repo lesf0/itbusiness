@@ -1,4 +1,4 @@
-<div class="content p-t-45 p-b-55">
+<div id="about" class="content p-t-45 p-b-55">
 	<h3 class="default-title panton f-34 upper bold cBlue ws-nowrap m-b-35">
 		Немного о нашей компании
 	</h3>

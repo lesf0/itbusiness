@@ -1,4 +1,4 @@
-<div class="content p-t-40 p-b-10 clear cGrayBlue">
+<div id="how" class="content p-t-40 p-b-10 clear cGrayBlue">
 	<h3 class="default-title panton f-34 upper bold cBlue ws-nowrap m-b-35">
 		Как мы работаем?
 	</h3>

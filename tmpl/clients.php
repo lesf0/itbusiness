@@ -1,4 +1,4 @@
-<div class="content p-t-45 p-b-50 cGrayBlue regular f-14">
+<div id="clients" class="content p-t-45 p-b-50 cGrayBlue regular f-14">
 	<h3 class="default-title panton f-34 upper bold cBlue ws-nowrap m-b-20">
 		Наши клиенты
 	</h3>

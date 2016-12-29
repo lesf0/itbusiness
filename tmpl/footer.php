@@ -1,4 +1,4 @@
-<div class="content clear text-center cF">
+<div id="footer" class="content clear text-center cF">
 	<div class="pull-left text-left h-165 valign-middle-hack"><div class="inblock">
 		<strong class="f-28">
 			«ИТ-БИЗНЕС»
@@ -35,22 +35,22 @@
 
 	<div class="w-410 h-165 inblock valign-middle-hack"><div class="inblock w-100-pc border-box brd-l-1 brd-r-1 brdF-30-pc clear regular f-13 lh-100-pc upper text-left">
 		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
-			<a href="#">О компании</a>
+			<a href="#about">О компании</a>
 		</div>
 		<div class="w-50-pc pull-left border-box p-l-45 h-30 valign-middle-icon">
-			<a href="#">Стоимость</a>
+			<label for="popup_show">Стоимость</label>
 		</div>
 		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
-			<a href="#">Услуги</a>
+			<a href="#what">Услуги</a>
 		</div>
 		<div class="w-50-pc pull-left border-box p-l-45 h-30 valign-middle-icon">
-			<a href="#">Клиенты</a>
+			<a href="#clients">Клиенты</a>
 		</div>
 		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
-			<a href="#">Сертификаты</a>
+			<a href="#certs">Сертификаты</a>
 		</div>
 		<div class="w-50-pc pull-left border-box p-l-45 h-30 valign-middle-icon">
-			<a href="#">Контакты</a>
+			<a href="#footer">Контакты</a>
 		</div>
 	</div></div>
 </div>

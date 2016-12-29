@@ -1,4 +1,4 @@
-<div class="content p-t-45 p-b-20 clear cGrayBlue">
+<div id="who" class="content p-t-45 p-b-20 clear cGrayBlue">
 	<h3 class="default-title panton f-34 upper bold cBlue ws-nowrap m-b-35">
 		Кому мы полезны?
 	</h3>

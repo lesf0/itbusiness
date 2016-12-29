@@ -1,4 +1,4 @@
-<div class="content p-t-45 p-b-75 cGrayBlue regular f-14">
+<div id="certs" class="content p-t-45 p-b-75 cGrayBlue regular f-14">
 	<h3 class="default-title panton f-34 upper bold cBlue ws-nowrap m-b-20">
 		Сертификаты
 	</h3>
@@ -8,7 +8,9 @@
 			<div class="swiper-wrapper">
 <?				for($i=0;$i<10;++$i): ?>
 				<div class="swiper-slide text-center cert-img-container onmiddle">
-					<img src="https://placekitten.com/165/240" class="w-165">
+					<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diploma_Pos_Graduacao_Parte_Curricular_Mestrado.jpg/800px-Diploma_Pos_Graduacao_Parte_Curricular_Mestrado.jpg" class="inblock">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diploma_Pos_Graduacao_Parte_Curricular_Mestrado.jpg/800px-Diploma_Pos_Graduacao_Parte_Curricular_Mestrado.jpg" class="w-165">
+					</a>
 				</div>
 <?				endfor; ?>
 			</div>
