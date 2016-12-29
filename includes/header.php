@@ -8,14 +8,14 @@
 <?//<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">?>
 <?//<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">?>
 
-<?php /* *** */ ?>
+<?php /* *** * ?>
 <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
 <link rel="stylesheet" type="text/css" href="assets/css/base.css">
 <link rel="stylesheet" type="text/css" href="assets/css/columns.css">
 <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
 <link rel="stylesheet" type="text/css" href="assets/css/colors.css">
 <link rel="stylesheet" type="text/css" href="assets/css/pages.css">
-<?php /* *** * ?>
+<?php /* *** */ ?>
 <link rel="stylesheet" type="text/css" href="assets/css/master.css">
 <?php /* *** */ ?>
 
