@@ -42,7 +42,7 @@
 					<li>АНО «СофтЛайнЭдюкейшн».</li>
 				</ul>
 			</div>
-			<div class="w-50-pc w-100-pc-sm pull-left brd-t-10 brd-b-10">
+<?/*			<div class="w-50-pc w-100-pc-sm pull-left brd-t-10 brd-b-10">
 				<h6 class="f-15 upper bold m-b-7">
 					Партнёры
 				</h6>
@@ -54,7 +54,7 @@
 					<li>This is Photoshop's version;</li>
 					<li>This is Photoshop's version of Lorem.</li>
 				</ul>
-			</div>
+			</div>*/?>
 		</div>
 	</div>
 </div>

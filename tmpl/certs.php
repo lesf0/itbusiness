@@ -6,12 +6,12 @@
 	<div class="m-t-65 h-240 relative onmiddle">
 		<div id="certs_slider" class="swiper-container absolute left right top bottom o-visible clip-lr pointer-auto">
 			<div class="swiper-wrapper">
-<?				for($i=0;$i<10;++$i): ?>
-				<div class="swiper-slide text-center cert-img-container onmiddle">
-					<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diploma_Pos_Graduacao_Parte_Curricular_Mestrado.jpg/800px-Diploma_Pos_Graduacao_Parte_Curricular_Mestrado.jpg" class="inblock">
-						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diploma_Pos_Graduacao_Parte_Curricular_Mestrado.jpg/800px-Diploma_Pos_Graduacao_Parte_Curricular_Mestrado.jpg" class="w-165">
-					</a>
-				</div>
+<?				for($i=0;$i<17;++$i): ?>
+				<div class="swiper-slide text-center cert-img-container onmiddle h-240 valign-middle-hack"><?
+					?><a href="assets/img/certs/<?= $i+1 ?>.jpg" class="inblock">
+						<img src="assets/img/certs/<?= $i+1 ?>.jpg" class="w-165">
+					</a><?
+				?></div>
 <?				endfor; ?>
 			</div>
 		</div>

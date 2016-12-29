@@ -134,7 +134,7 @@
 /************************************************************************************************/
 
 .cert-img-container {
-	&:before {
+	&:after {
 		content: '';
 		display: block;
 		position: absolute;
