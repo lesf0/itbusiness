@@ -4,7 +4,7 @@
 	</h3>
 
 	<div class="w-50-pc w-100-pc-sm pull-left m-b-30 valign-middle">
-		<img src="/assets/img/who/1.png" class="w-180">
+		<img src="assets/img/who/1.png" class="w-180">
 		<div class="inblock m-l-10 brd-l-3">
 			<h6 class="f-15 upper bold m-b-7">
 				Торговля
@@ -19,7 +19,7 @@
 	</div>
 
 	<div class="w-50-pc w-100-pc-sm pull-left m-b-30 valign-middle">
-		<img src="/assets/img/who/2.png" class="w-180">
+		<img src="assets/img/who/2.png" class="w-180">
 		<div class="inblock m-l-10 brd-l-3">
 			<h6 class="f-15 upper bold m-b-7">
 				Фаст-фуд
@@ -34,7 +34,7 @@
 	</div>
 
 	<div class="w-50-pc w-100-pc-sm pull-left m-b-30 valign-middle">
-		<img src="/assets/img/who/3.png" class="w-180">
+		<img src="assets/img/who/3.png" class="w-180">
 		<div class="inblock m-l-10 brd-l-3">
 			<h6 class="f-15 upper bold m-b-7">
 				Управление коммерческой<br>недвижимостью
@@ -49,7 +49,7 @@
 	</div>
 
 	<div class="w-50-pc w-100-pc-sm pull-left m-b-30 valign-middle">
-		<img src="/assets/img/who/4.png" class="w-180">
+		<img src="assets/img/who/4.png" class="w-180">
 		<div class="inblock m-l-10 brd-l-3">
 			<h6 class="f-15 upper bold m-b-7">
 				Техническое<br>сопровождение

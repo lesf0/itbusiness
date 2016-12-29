@@ -4,7 +4,7 @@
 	</h3>
 
 	<div class="w-50-pc w-100-pc-sm pull-left m-b-30 valign-middle">
-		<img src="/assets/img/what/1.png" class="w-180">
+		<img src="assets/img/what/1.png" class="w-180">
 		<div class="inblock m-l-10 brd-l-3">
 			<h6 class="f-15 upper bold m-b-7">
 				Автоматизация бизнеса<br>на базе 1-с:
@@ -20,7 +20,7 @@
 	</div>
 	
 	<div class="w-50-pc w-100-pc-sm pull-left m-b-30 valign-middle">
-		<img src="/assets/img/what/2.png" class="w-180">
+		<img src="assets/img/what/2.png" class="w-180">
 		<div class="inblock m-l-10 brd-l-3">
 			<h6 class="f-15 upper bold m-b-7">
 				Продажа и аренда <br>программного обеспечения<br>на базе Microsoft:
@@ -35,7 +35,7 @@
 	</div>
 
 	<div class="w-50-pc w-100-pc-sm pull-left m-b-30 valign-middle">
-		<img src="/assets/img/what/3.png" class="w-180">
+		<img src="assets/img/what/3.png" class="w-180">
 		<div class="inblock m-l-10 brd-l-3">
 			<h6 class="f-15 upper bold m-b-7">
 				Консалтинговые услуги:
@@ -51,7 +51,7 @@
 	</div>
 
 	<div class="w-50-pc w-100-pc-sm pull-left m-b-30 valign-middle">
-		<img src="/assets/img/what/4.png" class="w-180">
+		<img src="assets/img/what/4.png" class="w-180">
 		<div class="inblock m-l-10 brd-l-3">
 			<h6 class="f-15 upper bold m-b-7">
 				Электронный<br>документооборот (Диадок):

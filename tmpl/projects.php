@@ -10,7 +10,7 @@
 	<div class="project-holder relative onmiddle m-t-20 m-b-20 p-t-20 p-b-40">
 		<div class="absolute wrap-left wrap-right top bottom m-a-auto p-a-20 w-100-pc bgF onbottom"></div>
 		<div class="clear">
-			<img src="/assets/img/projects/1.png" class="w-220 pull-left m-r-20">
+			<img src="assets/img/projects/1.png" class="w-220 pull-left m-r-20">
 
 			<h5 class="f-20 bold cBlue">Построение новой ИТ-инфраструктуры.</h5>
 
