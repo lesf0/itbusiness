@@ -17,5 +17,7 @@
 				Получить консультацию
 			</button>
 		</div>
+
+		<label for="popup_show" class="inblock absolute left-100-pc bottom-100-pc m-a-5 f-30 lh-100-pc f-20 cF chF-50-pc trans-300">⨯</label>
 	</form><?
 ?></div>

@@ -34,7 +34,7 @@
 	</div></div>
 
 	<div class="w-410 h-165 inblock valign-middle-hack"><div class="inblock w-100-pc border-box brd-l-1 brd-r-1 brdF-30-pc clear regular f-13 lh-100-pc upper text-left">
-		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
+<?/*		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
 			<a href="#about">О компании</a>
 		</div>
 		<div class="w-50-pc pull-left border-box p-l-45 h-30 valign-middle-icon">
@@ -50,6 +50,30 @@
 			<a href="#certs">Сертификаты</a>
 		</div>
 		<div class="w-50-pc pull-left border-box p-l-45 h-30 valign-middle-icon">
+			<a href="#footer">Контакты</a>
+		</div>*/?>
+		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
+			<a href="#who">Для кого</a>
+		</div>
+		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
+			<a href="#what">что делаем</a>
+		</div>
+		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
+			<a href="#how">как работаем</a>
+		</div>
+		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
+			<a href="#about">о компании</a>
+		</div>
+		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
+			<a href="#projects">Проекты</a>
+		</div>
+		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
+			<a href="#clients">Клиенты</a>
+		</div>
+		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
+			<a href="#certs">Сертификаты</a>
+		</div>
+		<div class="w-50-pc pull-left border-box p-l-80 h-30 valign-middle-icon">
 			<a href="#footer">Контакты</a>
 		</div>
 	</div></div>
