@@ -22,8 +22,8 @@
 			г. Пермь, ул. Революции, 13
 		</p>
 		<p class="m-t-9 m-b-9">
-			<a href="mailto:e-mail@adress.ru" class="inblock lh-100-pc brd-b-1 brdF brdhTrans trans-300">
-				e-mail@adress.ru
+			<a href="mailto:info@itbns.ru" class="inblock lh-100-pc brd-b-1 brdF brdhTrans trans-300">
+				info@itbns.ru
 			</a>
 		</p>
 

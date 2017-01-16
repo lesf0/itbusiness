@@ -7,7 +7,7 @@
 		<img src="assets/img/what/1.png" class="w-180">
 		<div class="inblock m-l-10 brd-l-3">
 			<h6 class="f-15 upper bold m-b-7">
-				Автоматизация бизнеса<br>на базе 1-с:
+				Автоматизация бизнеса<br>на базе 1C:
 			</h6>
 
 			<ul class="no-list default-list f-14">
@@ -60,7 +60,7 @@
 			<ul class="no-list default-list f-14">
 				<li>Подбор тарифа;</li>
 				<li>Продажа ЭЦП и ключ. носителей;</li>
-				<li>Интеграция с 1-C;</li>
+				<li>Интеграция с 1C;</li>
 				<li>Поддержка и обслуживание.</li>
 			</ul>
 		</div>

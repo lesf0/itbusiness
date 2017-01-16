@@ -3,10 +3,6 @@
 		Реализованные проекты
 	</h3>
 
-<?	for($i=0;$i<2;++$i): ?>
-<?	if($i): ?>
-	<div class="brd-t-1 brdDCE0E3"></div>
-<?	endif; ?>
 	<div class="project-holder relative onmiddle m-t-20 m-b-20 p-t-20 p-b-40">
 		<div class="absolute wrap-left wrap-right top bottom m-a-auto p-a-20 w-100-pc bgF onbottom"></div>
 		<div class="clear">
@@ -58,7 +54,50 @@
 			</div>
 		</div>
 	</div>
-<?	endfor; ?>
+
+	<div class="brd-t-1 brdDCE0E3"></div>
+
+	<div class="project-holder relative onmiddle m-t-20 m-b-20 p-t-20 p-b-40">
+		<div class="absolute wrap-left wrap-right top bottom m-a-auto p-a-20 w-100-pc bgF onbottom"></div>
+		<div class="clear">
+			<img src="assets/img/projects/1.png" class="w-220 pull-left m-r-20">
+
+			<h5 class="f-20 bold cBlue">Оптимизация работы службы аренды коммерческой недвижимости.</h5>
+
+			<p class="m-t-7 m-b-7">
+				<strong class="upper f-15">Задача:</strong> Упростить процесс формирования пеней по задолженностя арендаторов по договорам аренды коммерческой недвижимости, автоматизировать процесс формирования документов по аренде на базе информационной системы 1С.
+			</p>
+			<p>
+				<strong class="upper f-15">Решение:</strong>
+			</p>
+
+			<ul class="no-list default-list default-list-hack m-b-15">
+				<li>Настроить ИС для занесения недостающих данных, настроить процесс формирования пеней и необходимых отчетов.</li>
+			</ul>
+			<br>
+			<p>
+				<strong class="upper f-15">Результат:</strong>
+			</p>
+
+			<ul class="no-list default-list-ok default-list-hack m-b-7">
+				<li>Проведена настройка информационной системы 1С для занесения данных по срокам выставления и размеру пеней;</li>
+				<li>Настроена обработка для автоматического формирования списка договоров с просроченными платежами, формирование счетов по пеням.</li>
+			</ul>
+		</div>
+
+		<div class="clear m-t-20 p-t-10 p-l-20 p-r-20 brd-t-5 brdBlue f-16 cDarkBlue">
+			<p class="m-b-5">
+				<strong class="upper f-15 cGrayBlue">Результат в цифрах:</strong>
+			</p>
+
+			<div class="pull-left w-50-pc w-100-pc-sm clear relative">
+				<img src="assets/img/ico/ok.png" class="h-30 border-box brd-t-1 brd-b-1 pull-left m-r-15 m-t-3">
+				<div class="absolute left right wrap-top wrap-bottom m-l-45 m-r-45 valign-middle-hack"><div class="inblock w-100-pc">
+					Более 1000 договоров аренды по 20 объектам недвижимости
+				</div></div>
+			</div>
+		</div>
+	</div>
 
 	<p class="text-center p-t-10">
 		<label for="popup_show" class="head-button inblock w-235 h-40 cF bgBlue f-13 upper text-center valign-middle-icon lh-100-pc rounded-3 bghDarkBlue trans-300">

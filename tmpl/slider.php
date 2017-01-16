@@ -9,12 +9,14 @@
 					</h4>
 
 					<div class="m-t-50 h-155 relative">
-						<form class="slider-form absolute wrap-left wrap-right top bottom w-540 m-a-auto bg-100pc-auto bg-center bg-no-repeat">
+						<form action="/ajax" method="POST" class="slider-form absolute wrap-left wrap-right top bottom w-540 m-a-auto bg-100pc-auto bg-center bg-no-repeat">
+							<input type="hidden" name="action" value="callback">
+
 							<h6 class="f-18 upper bold cF h-50 brd-t-1 brd-b-2 valign-middle-icon lh-100-pc">
 								У Вас появился вопрос? Мы ответим на него!
 							</h6>
 							<div class="h-80 m-l-20 m-r-20 bgF border-box brd-a-20 text-justify-hack">
-								<input type="tel" placeholder="Ваш телефон..." class="inblock h-100-pc w-220 border-box brd-a-1 brdInvisibleBlue rounded-3 p-l-15 p-r-15 regular italic f-14 c3">
+								<input type="tel" name="data[phone]" required placeholder="Ваш телефон..." class="inblock h-100-pc w-220 border-box brd-a-1 brdInvisibleBlue rounded-3 p-l-15 p-r-15 regular italic f-14 c3">
 
 								<button class="head-button inblock w-220 h-100-pc cF bgBlue f-13 upper text-center rounded-3 bghDarkBlue trans-300">
 									Получить консультацию
